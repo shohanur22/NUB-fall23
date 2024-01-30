@@ -4,7 +4,7 @@ int main(){
 //prob-1: Fahrenheit to celsius//
     float f,c;
     printf("Enter the Fahrenheit value:");
-    //scanf(" %f", &f);
+    scanf(" %f", &f);
     
     c=(f-32) * 5/9; 
 
@@ -13,7 +13,7 @@ int main(){
 //prob-2: Calculate area of a circle
     float area, r;
     printf("Enter the radious of circle:");
-    //scanf("%f",&r);
+    scanf("%f",&r);
 
     area= 3.1416 * r * r;
 
@@ -24,7 +24,7 @@ int main(){
 //prob-3: Convert days to years, months and weeks
     float yr, day, week, mnth;
     printf("Enter the days(number):");
-    //scanf(" %f", &day);
+    scanf(" %f", &day);
 
     yr = day/365;
     mnth = day/30;
@@ -36,7 +36,7 @@ int main(){
 //prob-4(Lab): Write a C program to determine the largest from three numbers.
     int n1,n2,n3;
     printf("Enter three numbers:");
-    //scanf(" %d %d %d", &n1, &n2, &n3);
+    scanf(" %d %d %d", &n1, &n2, &n3);
 
     if (n1>n2 && n1>n3)
     {
