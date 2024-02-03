@@ -2,7 +2,9 @@
 int main(){
 
     printf("<<< _WELCOME_ >>>\nCheck the triangle is valid or not\n");
-    
+
+    //Check triangle valid or not..........
+
     float a,b,c,sum;
     printf("Enter first angle: ");
     scanf(" %f", &a);
@@ -27,6 +29,47 @@ int main(){
     }else if (c <= 0)
     {
         printf("ERROR: Third angle(%.2f) is invalid, angle must be greater than 0 \n", c);
+    }
+
+
+
+
+
+
+//check number divisible by 7 and 12 or not.........
+    int x;
+    printf("Enter number to check divisible by 7 & 12: ");
+    scanf(" %d",&x);
+
+    if (x % 7 == 0 && x % 12 == 0)
+    {
+        printf("%d is divisible!", x);
+    }
+    else{
+        printf("%d is not divisible", x);
+    }
+    
+
+
+
+
+
+//Check character uppercase or lowercase.......
+    char chr;
+    printf("Enter the character to check capital or small:");
+    scanf(" %c", &chr);
+
+    if (chr >= 'A' && chr <= 'Z')
+    {
+        printf(" %c is Capital!", chr);
+    }
+    else if (chr >= 'a' && chr <= 'z' )
+    {
+        printf(" %c is Small!", chr);
+    }
+    else
+    {
+        printf(" %c is invalid character \n", chr);
     }
     
     
